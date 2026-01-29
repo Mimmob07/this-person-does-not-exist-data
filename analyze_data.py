@@ -1,9 +1,3 @@
-# from hair_color_detector import HairColorDetector
-
-# hcd = HairColorDetector()
-# detected_color = hcd.get_color("assets/img_1.jpeg", save_result=False)
-# print(f"Detected color: {detected_color}")
-
 from deepface import DeepFace
 
 file = open("data.csv", "w")
