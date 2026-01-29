@@ -6,7 +6,7 @@
 
 from deepface import DeepFace
 
-file = open("data.csv", "a")
+file = open("data.csv", "w")
 file.write("Filename,Race,Emotion,Gender,Age\n")
 
 for i in range(1,1001):
